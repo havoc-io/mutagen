@@ -8,6 +8,7 @@ require (
 	github.com/bmatcuk/doublestar v1.1.1
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.7.0
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef
 	github.com/golang/protobuf v1.3.1
 	github.com/google/uuid v1.1.1

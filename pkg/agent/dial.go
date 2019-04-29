@@ -64,6 +64,9 @@ func connect(
 
 	// Compute the command to invoke.
 	command := fmt.Sprintf("%s %s", agentInvocationPath, ModeEndpoint)
+	if !cmdExe {
+		command = "./" + command
+	}
 
 	// Create an agent process.
 	message := "Connecting to agent (POSIX)..."
